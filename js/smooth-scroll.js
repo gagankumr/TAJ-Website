@@ -1,7 +1,1 @@
-var $root = $('html, body');
-$('a').click(function() {
-    $root.animate({
-        scrollTop: $( $.attr(this, 'href') ).offset().top
-    }, 1000);
-    return false;
-});
+var $root=$("html, body");$("a").click(function(){return $root.animate({scrollTop:$($.attr(this,"href")).offset().top},1e3),!1});
